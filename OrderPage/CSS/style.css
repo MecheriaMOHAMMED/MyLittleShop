@@ -635,13 +635,13 @@ body.dark .summary-total {
   margin-top: 20px;
 }
 
-.toggle-panel .social-icons a {
+.form-box .social-icons a {
   display: inline-flex;
   padding: 10px;
-  border: 2px solid #000;
+  border: 2px solid #ff9e02;
   border-radius: 50%;
   font-size: 20px;
-  color: #000;
+  color: #ff9e02;
   transition: 0.2s;
   width: 40px;
   height: 40px;
@@ -649,7 +649,7 @@ body.dark .summary-total {
   align-items: center;
 }
 
-.toggle-panel .social-icons a:hover {
+.form-box .social-icons a:hover {
   background-color: #000;
   color: var(--accent-color);
   transform: translateY(-3px);
