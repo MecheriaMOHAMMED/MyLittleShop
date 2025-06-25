@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>صفحة الشورتات</title>
+</head>
+<body>
+        <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" loading="lazy" alt="شعار">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">متجري</span>
+                    <span class="profession">الصغير</span>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-chevron-right toggle"></i> 
+        </header>
+        
+        <div class="menu-bar">
+            <div class="menu">
+               
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="Shoes/Shoes.html">
+                            <i class="fa-solid fa-shirt icon"></i>
+                            <span class="text nav-text">صفحة الأحذية</span> 
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="OrderPage/OrderPage.html">
+                            <i class="fa-solid fa-truck icon"></i> 
+                            <span class="text nav-text">صفحة الطلب</span> 
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.facebook.com/profile.php?id=61563908931250">
+                            <i class="fa-brands fa-square-facebook icon"></i>
+                            <span class="text nav-text">فيسبوك</span> 
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.instagram.com/my._.little._.chop?igsh=eWk1aGk1bW82eHRo">
+                            <i class="fa-brands fa-square-instagram icon"></i>
+                            <span class="text nav-text">انستغرام</span> 
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://wa.me/213796972335?text=مرحبا%2C%20أريد%20معرفة%20المزيد%20عن%20منتجاتكم" target="_blank">
+                            <i class="fa-brands fa-square-whatsapp icon"></i> 
+                            <span class="text nav-text">واتساب</span> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="botoom-content">
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='i class="fa-solid fa-moon icon moon'  ></i>
+                        <i class="fa-solid fa-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">الوضع المظلم</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modern animated hamburger button for mobile -->
+    <button class="hamburger modern-hamburger" id="hamburgerBtn" aria-label="Open sidebar">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <!-- Sidebar overlay for mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+     <section class="home">
+        <div class="header-row-mobile">
+            <div class="text">متجري الصغير</div>
+        </div>
+        <div class="hero responsive-container">
+            <div class="text-container">
+            <h1>شورتات<br><span>رياضية</span></h1>
+            <div class="price-and-button">
+                <div class="price-tag">2200 <span class="currency">دج</span></div>
+                <a href="OrderPage/OrderPage.html" class="button">تسوق الآن</a>
+            </div>
+            <div class="product-description">
+                <div class="highlight-badge">🩳 شورت فيزو رياضي ساتر</div>
+                <p>خيارك الأمثل للراحة والأمان!</p>
+                <ul>
+                    <li>قماش عالي الجودة، مرن ومتين</li>
+                    <li>تصميم ساتر للعورة، يغطي من السرة إلى ما تحت الركبة</li>
+                    <li>مناسب للرياضة والسباحة والاستخدام اليومي</li>
+                    <li>متوفر بمقاسات من M إلى 3XL</li>
+                    <li>توصيل متاح إلى جميع ولايات الوطن</li>
+                    <li>مثالي للشباب الباحثين عن الراحة والاحتشام في آنٍ واحد</li>
+                </ul>
+                <span class="callout">📦 اطلب الآن وخليك ديمًا مستعد بكل ثقة وأناقة!</span>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="Images/FRONT.PNG" loading="lazy" alt="شورت" class="shoe-image" width="450px">
+            <div class="product-icons product-gallery">
+                <div class="SectionIcon active" data-shoe="1"><img src="Images/FRONT.PNG" loading="lazy" width="60px"></div>
+                <div class="SectionIcon" data-shoe="2"><img src="Images/BACK.PNG" loading="lazy" width="60px"></div>
+                <div class="SectionIcon" data-shoe="3"><img src="Images/SIDE.PNG" loading="lazy" width="60px"></div>
+                <div class="SectionIcon" data-shoe="4"><img src="Images/CLOSE.png" loading="lazy" width="60px"></div>
+            </div>
+        </div>
+        </div>
+     </section>
+    <script src="script.js"></script>
+</body>
+</html>

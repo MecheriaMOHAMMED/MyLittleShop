@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب شورتات/أحذية</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="form-box login">
+                <form action="https://script.google.com/macros/s/AKfycbw9JLJGNa18gLohk7pECwAumMveZ0VOnTFETxq2pFo_pvwlEVHJR1S6SBLV9M0xBKnR7g/exec" method="POST" target="hidden_iframe" autocomplete="off" id="shortsForm">
+                    <h1><div class="home-icons">شورتات</div></h1>
+                    
+                    <!-- Order Summary -->
+                    <div class="order-summary">
+                        <h2>ملخص الطلب</h2>
+                        <div class="summary-item">
+                            <span class="label">المنتج:</span>
+                            <span>شورتات</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="label">السعر:</span>
+                            <span>2200 دج</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="label">التوصيل:</span>
+                            <span>400 دج</span>
+                        </div>
+                        <div class="summary-total">
+                            <span>المجموع:</span>
+                            <span>2600 دج</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Form Fields in Grid Layout -->
+                    <div class="form-grid">
+                        <div class="input-box">
+                            <input type="text" name="الاسم الكامل" placeholder="الاسم الكامل" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <input type="tel" name="رقم الهاتف" placeholder="رقم الهاتف" required>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <select class="Wilaya" name="الولاية" required>
+                                <option value="" disabled selected>اختر الولاية</option>
+                                <option value="01 - أدرار">01 - أدرار</option>
+                                <option value="02 - الشلف">02 - الشلف</option>
+                                <option value="03 - الأغواط">03 - الأغواط</option>
+                                <option value="04 - أم البواقي">04 - أم البواقي</option>
+                                <option value="05 - باتنة">05 - باتنة</option>
+                                <option value="06 - بجاية">06 - بجاية</option>
+                                <option value="07 - بسكرة">07 - بسكرة</option>
+                                <option value="08 - بشار">08 - بشار</option>
+                                <option value="09 - البليدة">09 - البليدة</option>
+                                <option value="10 - البويرة">10 - البويرة</option>
+                                <option value="11 - تمنراست">11 - تمنراست</option>
+                                <option value="12 - تبسة">12 - تبسة</option>
+                                <option value="13 - تلمسان">13 - تلمسان</option>
+                                <option value="14 - تيارت">14 - تيارت</option>
+                                <option value="15 - تيزي وزو">15 - تيزي وزو</option>
+                                <option value="16 - الجزائر">16 - الجزائر</option>
+                                <option value="17 - الجلفة">17 - الجلفة</option>
+                                <option value="18 - جيجل">18 - جيجل</option>
+                                <option value="19 - سطيف">19 - سطيف</option>
+                                <option value="20 - سعيدة">20 - سعيدة</option>
+                                <option value="21 - سكيكدة">21 - سكيكدة</option>
+                                <option value="22 - سيدي بلعباس">22 - سيدي بلعباس</option>
+                                <option value="23 - عنابة">23 - عنابة</option>
+                                <option value="24 - قالمة">24 - قالمة</option>
+                                <option value="25 - قسنطينة">25 - قسنطينة</option>
+                                <option value="26 - المدية">26 - المدية</option>
+                                <option value="27 - مستغانم">27 - مستغانم</option>
+                                <option value="28 - المسيلة">28 - المسيلة</option>
+                                <option value="29 - معسكر">29 - معسكر</option>
+                                <option value="30 - ورقلة">30 - ورقلة</option>
+                                <option value="31 - وهران">31 - وهران</option>
+                                <option value="32 - البيض">32 - البيض</option>
+                                <option value="33 - إليزي">33 - إليزي</option>
+                                <option value="34 - برج بوعريريج">34 - برج بوعريريج</option>
+                                <option value="35 - بومرداس">35 - بومرداس</option>
+                                <option value="36 - الطارف">36 - الطارف</option>
+                                <option value="37 - تندوف">37 - تندوف</option>
+                                <option value="38 - تيسمسيلت">38 - تيسمسيلت</option>
+                                <option value="39 - الوادي">39 - الوادي</option>
+                                <option value="40 - خنشلة">40 - خنشلة</option>
+                                <option value="41 - سوق أهراس">41 - سوق أهراس</option>
+                                <option value="42 - تيبازة">42 - تيبازة</option>
+                                <option value="43 - ميلة">43 - ميلة</option>
+                                <option value="44 - عين الدفلى">44 - عين الدفلى</option>
+                                <option value="45 - النعامة">45 - النعامة</option>
+                                <option value="46 - عين تموشنت">46 - عين تموشنت</option>
+                                <option value="47 - غرداية">47 - غرداية</option>
+                                <option value="48 - غليزان">48 - غليزان</option>
+                                <option value="49 - تيميمون">49 - تيميمون</option>
+                                <option value="50 - برج باجي مختار">50 - برج باجي مختار</option>
+                                <option value="51 - أولاد جلال">51 - أولاد جلال</option>
+                                <option value="52 - بني عباس">52 - بني عباس</option>
+                                <option value="53 - عين صالح">53 - عين صالح</option>
+                                <option value="54 - عين قزام">54 - عين قزام</option>
+                                <option value="55 - تقرت">55 - تقرت</option>
+                                <option value="56 - جانت">56 - جانت</option>
+                                <option value="57 - المغير">57 - المغير</option>
+                                <option value="58 - المنيعة">58 - المنيعة</option>
+                            </select>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        
+                        <div class="input-box municipality-container" style="display: none;">
+                            <select class="municipality" name="البلدية" required disabled>
+                                <option value="" disabled selected>اختر البلدية</option>
+                                <!-- البلديات ستضاف ديناميكيا بواسطة جافا سكريبت -->
+                            </select>
+                            <i class="fa-solid fa-city"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <input type="text" name="العنوان" placeholder="العنوان" required>
+                            <i class="fa-solid fa-house-user"></i>
+                        </div>
+                        
+                        <div class="input-box delivery-type">
+                            <span class="delivery-label">مكان التوصيل:</span>
+                            <div class="delivery-options">
+                                <label>
+                                    <input type="radio" name="مكان التوصيل" value="المنزل" checked required>
+                                    <span>المنزل</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="مكان التوصيل" value="المكتب">
+                                    <span>المكتب</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-box">
+                            <select name="المقاس" required>
+                                <option value="" disabled selected>اختر المقاس</option>
+                                <option>XS</option><option>S</option><option>M</option>
+                                <option>L</option><option>XL</option><option>XXL</option>
+                            </select>
+                            <i class="fa-solid fa-ruler"></i>
+                        </div>
+                        
+                        <div class="input-box quantity-line">
+                            <label class="quantity-label" for="quantity">الكمية:</label>
+                            <input type="number" id="quantity" name="الكمية" placeholder="1" min="1" value="1" required>
+                            <i class="fa-solid fa-box"></i>
+                        </div>
+                        
+                        <div class="input-box color-line full-width">
+                            <span class="color-label">اللون :</span>
+                            <div class="color-options">
+                                <label class="color-box black">
+                                    <input type="radio" name="اللون" value="أسود" checked required>
+                                    <span></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <input type="hidden" name="النوع" value="شورتات">
+                    <div>
+                        <button type="button" class="order">
+                            <span class="default">إتمام الطلب</span>
+                            <span class="success">تم الطلب
+                                <svg viewBox="0 0 12 10">
+                                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                </svg>
+                            </span>
+                            <div class="box"></div>
+                            <div class="truck">
+                                <div class="back"></div>
+                                <div class="front">
+                                    <div class="window"></div>
+                                </div>
+                                <div class="light top"></div>
+                                <div class="light bottom"></div>
+                            </div>
+                            <div class="lines"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!--Shoes-->
+            <div class="form-box register">
+                <form action="https://script.google.com/macros/s/AKfycbw9JLJGNa18gLohk7pECwAumMveZ0VOnTFETxq2pFo_pvwlEVHJR1S6SBLV9M0xBKnR7g/exec" method="POST" target="hidden_iframe" autocomplete="off" id="shoesForm">
+                    <h1><div class="home-icons"><a href="../Shoes/Shoes.html"><i class='bx  bx-home'></i></a>أحذية</div></h1>
+                    
+                    <!-- Order Summary -->
+                    <div class="order-summary">
+                        <h2>ملخص الطلب</h2>
+                        <div class="summary-item">
+                            <span class="label">المنتج:</span>
+                            <span>أحذية</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="label">السعر:</span>
+                            <span>1600 دج</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="label">التوصيل:</span>
+                            <span>اختر الولاية</span>
+                        </div>
+                        <div class="summary-total">
+                            <span>المجموع:</span>
+                            <span>اختر الولاية</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Form Fields in Grid Layout -->
+                    <div class="form-grid">
+                        <div class="input-box">
+                            <input type="text" name="الاسم الكامل" placeholder="الاسم الكامل" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <input type="tel" name="رقم الهاتف" placeholder="رقم الهاتف" required>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <select class="Wilaya" name="الولاية" required>
+                                <option value="" disabled selected>اختر الولاية</option>
+                                <option value="01 - أدرار">01 - أدرار</option>
+                                <option value="02 - الشلف">02 - الشلف</option>
+                                <option value="03 - الأغواط">03 - الأغواط</option>
+                                <option value="04 - أم البواقي">04 - أم البواقي</option>
+                                <option value="05 - باتنة">05 - باتنة</option>
+                                <option value="06 - بجاية">06 - بجاية</option>
+                                <option value="07 - بسكرة">07 - بسكرة</option>
+                                <option value="08 - بشار">08 - بشار</option>
+                                <option value="09 - البليدة">09 - البليدة</option>
+                                <option value="10 - البويرة">10 - البويرة</option>
+                                <option value="11 - تمنراست">11 - تمنراست</option>
+                                <option value="12 - تبسة">12 - تبسة</option>
+                                <option value="13 - تلمسان">13 - تلمسان</option>
+                                <option value="14 - تيارت">14 - تيارت</option>
+                                <option value="15 - تيزي وزو">15 - تيزي وزو</option>
+                                <option value="16 - الجزائر">16 - الجزائر</option>
+                                <option value="17 - الجلفة">17 - الجلفة</option>
+                                <option value="18 - جيجل">18 - جيجل</option>
+                                <option value="19 - سطيف">19 - سطيف</option>
+                                <option value="20 - سعيدة">20 - سعيدة</option>
+                                <option value="21 - سكيكدة">21 - سكيكدة</option>
+                                <option value="22 - سيدي بلعباس">22 - سيدي بلعباس</option>
+                                <option value="23 - عنابة">23 - عنابة</option>
+                                <option value="24 - قالمة">24 - قالمة</option>
+                                <option value="25 - قسنطينة">25 - قسنطينة</option>
+                                <option value="26 - المدية">26 - المدية</option>
+                                <option value="27 - مستغانم">27 - مستغانم</option>
+                                <option value="28 - المسيلة">28 - المسيلة</option>
+                                <option value="29 - معسكر">29 - معسكر</option>
+                                <option value="30 - ورقلة">30 - ورقلة</option>
+                                <option value="31 - وهران">31 - وهران</option>
+                                <option value="32 - البيض">32 - البيض</option>
+                                <option value="33 - إليزي">33 - إليزي</option>
+                                <option value="34 - برج بوعريريج">34 - برج بوعريريج</option>
+                                <option value="35 - بومرداس">35 - بومرداس</option>
+                                <option value="36 - الطارف">36 - الطارف</option>
+                                <option value="37 - تندوف">37 - تندوف</option>
+                                <option value="38 - تيسمسيلت">38 - تيسمسيلت</option>
+                                <option value="39 - الوادي">39 - الوادي</option>
+                                <option value="40 - خنشلة">40 - خنشلة</option>
+                                <option value="41 - سوق أهراس">41 - سوق أهراس</option>
+                                <option value="42 - تيبازة">42 - تيبازة</option>
+                                <option value="43 - ميلة">43 - ميلة</option>
+                                <option value="44 - عين الدفلى">44 - عين الدفلى</option>
+                                <option value="45 - النعامة">45 - النعامة</option>
+                                <option value="46 - عين تموشنت">46 - عين تموشنت</option>
+                                <option value="47 - غرداية">47 - غرداية</option>
+                                <option value="48 - غليزان">48 - غليزان</option>
+                                <option value="49 - تيميمون">49 - تيميمون</option>
+                                <option value="50 - برج باجي مختار">50 - برج باجي مختار</option>
+                                <option value="51 - أولاد جلال">51 - أولاد جلال</option>
+                                <option value="52 - بني عباس">52 - بني عباس</option>
+                                <option value="53 - عين صالح">53 - عين صالح</option>
+                                <option value="54 - عين قزام">54 - عين قزام</option>
+                                <option value="55 - تقرت">55 - تقرت</option>
+                                <option value="56 - جانت">56 - جانت</option>
+                                <option value="57 - المغير">57 - المغير</option>
+                                <option value="58 - المنيعة">58 - المنيعة</option>
+                            </select>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        
+                        <div class="input-box municipality-container" style="display: none;">
+                            <select class="municipality" name="البلدية" required disabled>
+                                <option value="" disabled selected>اختر البلدية</option>
+                                <!-- البلديات ستضاف ديناميكيا بواسطة جافا سكريبت -->
+                            </select>
+                            <i class="fa-solid fa-city"></i>
+                        </div>
+                        
+                        <div class="input-box">
+                            <input type="text" name="العنوان" placeholder="العنوان" required>
+                            <i class="fa-solid fa-house-user"></i>
+                        </div>
+                        
+                        <div class="input-box delivery-type">
+                            <span class="delivery-label">مكان التوصيل:</span>
+                            <div class="delivery-options">
+                                <label>
+                                    <input type="radio" name="مكان التوصيل" value="المنزل" checked required>
+                                    <span>المنزل</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="مكان التوصيل" value="المكتب">
+                                    <span>المكتب</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-box">
+                            <select name="المقاس" required>
+                                <option value="" disabled selected>اختر المقاس</option>
+                                <option>39</option><option>40</option><option>41</option>
+                                <option>42</option><option>43</option><option>44</option><option>45</option>
+                            </select>
+                            <i class="fa-solid fa-shoe-prints"></i>
+                        </div>
+                        
+                        <div class="input-box quantity-line">
+                            <label class="quantity-label" for="quantity-shoes">الكمية:</label>
+                            <input type="number" id="quantity-shoes" name="الكمية" placeholder="1" min="1" value="1" required>
+                            <i class='bx bxs-package'></i>
+                        </div>
+                        
+                        <div class="input-box color-line full-width">
+                            <span class="color-label">اللون :</span>
+                            <div class="color-options">
+                                <label class="color-box black">
+                                    <input type="radio" name="اللون" value="أسود" checked required>
+                                    <span></span>
+                                </label>
+                                <label class="color-box blue">
+                                    <input type="radio" name="اللون" value="أزرق">
+                                    <span></span>
+                                </label>
+                                <label class="color-box rose">
+                                    <input type="radio" name="اللون" value="وردي">
+                                    <span></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <input type="hidden" name="النوع" value="أحذية">
+                    <div>
+                        <button type="button" class="order">
+                            <span class="default">إتمام الطلب</span>
+                            <span class="success">تم الطلب
+                                <svg viewBox="0 0 12 10">
+                                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                </svg>
+                            </span>
+                            <div class="box"></div>
+                            <div class="truck">
+                                <div class="back"></div>
+                                <div class="front">
+                                    <div class="window"></div>
+                                </div>
+                                <div class="light top"></div>
+                                <div class="light bottom"></div>
+                            </div>
+                            <div class="lines"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-panel toggle-left">
+                    <a href="../Shoes/Shoes.html" class="home-button-toggle">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                    <h1>هل تريد طلب شورتات؟</h1>
+                    <button class="btn login-btn">طلب</button>
+                    <div class="social-icons">
+                        <a href="https://wa.me/213796972335?text=مرحبا،%20أريد%20معرفة%20المزيد%20عن%20منتجاتكم" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61563908931250"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/my._.little._.chop?igsh=eWk1aGk1bW82eHRo"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <a href="../index.html" class="home-button-toggle">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                    <h1>هل تريد طلب أحذية؟</h1>
+                    <button class="btn register-btn">طلب</button>
+                    <div class="social-icons">
+                        <a href="https://wa.me/213796972335?text=مرحبا،%20أريد%20معرفة%20المزيد%20عن%20منتجاتكم" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61563908931250"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/my._.little._.chop?igsh=eWk1aGk1bW82eHRo"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+
+    <!-- إطار مخفي لمنع إعادة التوجيه -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+</body>
+</html>
