@@ -506,7 +506,7 @@ body.dark .summary-total {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
@@ -548,7 +548,7 @@ body.dark .summary-total {
   position: absolute;
   width: 50%;
   height: 100%;
-  color: #fff;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -560,7 +560,7 @@ body.dark .summary-total {
 }
 
 .toggle-panel h1, .toggle-panel p {
-  color: #fff;
+  color: #000;
 }
 
 /* Toggle panel visibility - show only relevant panel */
@@ -598,7 +598,7 @@ body.dark .summary-total {
   width: 160px;
   height: 46px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   box-shadow: none;
   margin-bottom: 30px;
 }
@@ -611,16 +611,16 @@ body.dark .summary-total {
   width: 60px;
   height: 60px;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 50%;
-  color: #fff;
+  color: #000;
   font-size: 28px;
   margin-bottom: 30px;
   transition: all 0.3s ease;
 }
 
 .home-button-toggle:hover {
-  background-color: #fff;
+  background-color: #000;
   color: var(--accent-color);
   transform: scale(1.1);
 }
@@ -638,10 +638,10 @@ body.dark .summary-total {
 .toggle-panel .social-icons a {
   display: inline-flex;
   padding: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 50%;
   font-size: 20px;
-  color: #fff;
+  color: #000;
   transition: 0.2s;
   width: 40px;
   height: 40px;
@@ -650,7 +650,7 @@ body.dark .summary-total {
 }
 
 .toggle-panel .social-icons a:hover {
-  background-color: #fff;
+  background-color: #000;
   color: var(--accent-color);
   transform: translateY(-3px);
 }
